@@ -1,4 +1,4 @@
-/* Style the body margins*/
+/* Style the body margins, separate each element per line*/
 body {
      margin-left: 2%; 
      margin-right: 2%; 
@@ -12,7 +12,8 @@ article {
      background-position: top; 
      background-size: 55%;
      }
-  /* Style the header with a border and center and small caps with Top and Bottom bars */
+  /* Style the header with a border and center and small caps with Top and Bottom bars
+      Correct the header border from Module02 assignment feedback */
 header {
     color: black;
     margin-top: 20px;
@@ -25,7 +26,8 @@ header {
     font-variant: small-caps;
     border-right: 15px solid black; height: 22px;
     }  
-/* Style the aside right justified with float, change color for Module03 */
+/* Style the aside right justified with float, 
+   Correct the aside border from Module02 assignment feedback, change color for Module03 */
 aside {
         text-align: right;
         float: right;
