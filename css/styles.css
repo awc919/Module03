@@ -1,0 +1,85 @@
+/* Style the body margins */
+body {
+     margin-left: 2%; 
+     margin-right: 2%; 
+     margin-top: 2%; 
+     margin-bottom: 2%;
+     }
+ /* Style the logo */
+article { 
+     background-image: url('WidgetCoLogo.gif');
+     background-repeat: no-repeat;
+     background-position: top; 
+     background-size: 55%;
+     }
+  /* Style the header with a border and center and small caps with Top and Bottom bars */
+header {
+    color: black;
+    margin-top: 20px;
+    border: 2px;
+    border-color: darkgray white black white;
+    border-top-style: solid;
+    border-bottom-style: solid;
+        float: center;
+    text-align: center;
+    font-variant: small-caps;
+    border-right: 15px solid black; height: 22px;
+    }  
+/* Style the aside right justified with float, change color for Module03 */
+aside {
+        text-align: right;
+        float: right;
+        margin-right: 15px;
+        padding-right: 2px;
+        font-size: 24px;
+        border-right: 15px solid blue; height: 185px; margin-right: 0px; padding-left: 2px;
+    }
+/* Bold Press Contact */
+aside::first-line {font-weight: bold;}
+/* Style the header horizontal and vertical aligned */ 
+h1 {
+    color: black;
+    font-size: 60px;
+    vertical-align: middle;
+    text-align: left;
+    }
+h2 {
+    color: black;
+    font-style: italic;
+    font-size: 34px;
+    margin-top: 1%;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    }
+/* Style the main text justified */ 
+p {
+    color: black;
+    font-size: 24px;
+    text-align: justify;
+    margin-left: 10%;
+    margin-right: 8%;
+    word-spacing: -1px;
+    }
+/* Style the green box with left side thicker, changed color to maroon for Module03*/ 
+section {
+        width: 980px;
+        height: 100px;
+        padding: 12px;
+        border: 3px solid maroon;
+        border-left: 50px solid maroon;
+        margin-left: 10%;
+        margin-right: 12%;
+        font-size: 24px;
+        text-align: justify;
+        }
+/* Style the footer gray and link gray with top line and right aligned */ 
+footer{
+        border-top: 2px solid gray;
+        margin-top: 1%;
+        margin-bottom: 10%;
+        text-align: right;
+        color: gray;
+        font-style: italic;
+        a:link {color: gray;}
+        }   
